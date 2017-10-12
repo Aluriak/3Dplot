@@ -12,6 +12,4 @@ comp:
 	$(PYTHON) cli.py stats_compression.csv node density "fc e.r." "pg e.r."
 
 concept_gen:
-	$(PYTHON) cli.py ~/programs/pocs/concept_generation/output.csv "context size" "context density" time --select="method=method_sum_1"
-	$(PYTHON) cli.py ~/programs/pocs/concept_generation/output.csv "context size" "context density" time --select="method=method_sum_2"
-	$(PYTHON) cli.py ~/programs/pocs/concept_generation/output.csv "context size" "context density" time --select="method=method_sum_3"
+	$(PYTHON) cli.py ~/programs/pocs/concept_generation/output.csv "context size" "context density" "choice time" "simple time"
